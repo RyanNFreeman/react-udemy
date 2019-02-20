@@ -5,6 +5,7 @@ Project files for udemy react course
 ## Skip to content
 
 1.[Components Overview](#componentLearningCard)
+
 2.[JSX Cheat Sheet](#jsxCheatSheet)
 
 ### <a name='componentLearningCard'></a> Component Overview Image
