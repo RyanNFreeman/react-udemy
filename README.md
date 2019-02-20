@@ -3,7 +3,12 @@ Project files for udemy react course
 
 ## Skip to content:
 
+-[Components Overview](#componentLearningCard)
 -[JSX Cheat Sheet](#jsxCheatSheet)
+
+### <a name='componentLearningCard'></a> Component Overview Image
+
+![Component Learning Card](/react-complete-guide/assets/components.png)
 
 ### <a name='jsxCheatSheet'></a> JSX Cheat Sheet
 
@@ -13,9 +18,19 @@ Each component needs to return/ render some JSX code - it defines which HTML cod
 JSX is NOT HTML but it looks a lot like it. Differences can be seen when looking closely though (for example className in JSX vs class in "normal HTML"). JSX is just syntactic sugar for JavaScript, allowing you to write HTMLish code instead of nested React.createElement(...) calls.
 When creating components, you have the choice between two different ways:
 
-1. Functional components (also referred to as "presentational", "dumb" or "stateless" components - more about this later in the course) => const cmp =() => { return `<div>some JSX</div>`} 
+1. Functional components (also referred to as "presentational", "dumb" or "stateless" components - more about this later in the course) =>
+
+        const cmp =() => {
+          return <div>some JSX</div>
+          }
+
 (using ES6 arrow functions as shown here is recommended but optional)
-2. class-based components (also referred to as "containers", "smart" or "stateful" components) => 
-class Cmp extends Component {render () {return `<div>some JSX</div>`}}
-  
+2. class-based components (also referred to as "containers", "smart" or "stateful" components) =>
+
+        class Cmp extends Component {
+          render () {
+            return <div>some JSX</div>
+            }
+          }
+
 We'll of course dive into the difference throughout this course, you can already note that you should use 1) as often as possible though. It's the best-practice.

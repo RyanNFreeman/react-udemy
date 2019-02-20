@@ -8,6 +8,7 @@ class App extends React.Component {
       <div className="App">
         <h1>Hi, I'm a React App</h1>
         <Banana />
+        <Banana />
       </div>
     );
     // This is what it looks like without JSX:
