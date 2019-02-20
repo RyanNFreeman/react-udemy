@@ -1,7 +1,8 @@
 # react-udemy
+
 Project files for udemy react course
 
-## Skip to content:
+## Skip to content
 
 1.[Components Overview](#componentLearningCard)
 2.[JSX Cheat Sheet](#jsxCheatSheet)
