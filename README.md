@@ -8,6 +8,8 @@ Project files for udemy react course
 
 2.[JSX Cheat Sheet](#jsxCheatSheet)
 
+3.[Props Overview](#propsLearningCard)
+
 ### <a name='componentLearningCard'></a> Component Overview Image
 
 ![Component Learning Card](/react-complete-guide/assets/components.png)
@@ -36,3 +38,7 @@ When creating components, you have the choice between two different ways:
           }
 
 We'll of course dive into the difference throughout this course, you can already note that you should use 1) as often as possible though. It's the best-practice.
+
+### <a name='propsLearningCard'></a> Props Overview Image
+
+![Props Learning Card](/react-complete-guide/assets/props.png)
