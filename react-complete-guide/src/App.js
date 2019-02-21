@@ -7,8 +7,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Hi, I'm a React App</h1>
-        <Banana name='Ryan' age='28'>My Hobbies: SVG animation, guitar</Banana>
-        <Banana name='Big Ryan' age='100'>My Hobbies: cycling, cooking, carpentry</Banana>
+        <Banana name='Ryan' age='28'>My Hobbies: hiking, dog</Banana>
+        <Banana name='Big Ryan' age='100'>My Hobbies: old people stuff</Banana>
       </div>
     );
     // You can pass children to a React component in between the opening and closing JSX tags. To render, you'd access children via props, using the key 'children'. {props.children}  In this way, you can pass complex elements like a list, or just a simple string.
